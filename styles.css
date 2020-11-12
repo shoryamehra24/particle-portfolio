@@ -1,0 +1,164 @@
+body{
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;  
+    opacity: 1;
+    transition: 1.4s opacity ease-in-out;  
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+
+
+.everything{
+    padding-top: 86px;
+    overflow: none;
+}
+
+
+#particles-js {
+    position: absolute;
+    height: 100vh;
+    width: 205vh;
+    z-index: -20;
+}
+
+
+.main-heading{
+text-align: center;
+top: 30%;
+width: 100%;
+line-height: 1.5rem; 
+font-family: 'Chivo', sans-serif;
+
+
+}
+
+
+.main-heading h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px 0 25px 0 ;
+    line-height: 2rem;
+}
+
+
+.main-heading p{
+font-weight: 400;
+color: black;
+margin-top: 25px;
+font-family: 'Overpass', sans-serif;
+width: 35%;
+margin-left: 32%;
+text-align: justify;
+
+}
+
+img{
+    border-radius: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.socials{
+    padding: 10px;
+    
+}
+
+.socials a{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    font-size: 14.5;
+    color: gray;
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
+}
+
+.text-link{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+span{
+    border-bottom: #fe4164 solid;
+    border-bottom-width: 2%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+span:hover{
+background-color: black;
+color: white;
+transform: scale(2);
+padding: 10px;
+border: none;
+}
+
+.text-link:hover{
+    transform: scale(2);
+}
+
+
+.fa-instagram{
+color: #fe019a
+}
+.fa-linkedin{
+    color: #007bb6;
+}
+.fa-github{
+    color: black;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-spotify{
+    color: #00bf8f;
+}
+
+
+.social-link{
+    text-decoration: none;
+    position: relative;
+    transition: 0.4s ease-in;
+    
+}
+
+.social-link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.social-link::after{
+    border-radius: 1em;
+    position: absolute;
+    content: "";
+    border-top: .1em  #fe4164  solid;
+    right:100%;
+    bottom: -0.2em;
+    left: 100%;
+    transition:  0.5s ease;
+}
+
+
+.social-link:hover::after{
+    right: 0;
+    left: 0;
+}
+
+::selection{
+    background-color: #fe4164b6;
+}
+
+::-moz-selection{
+    background-color: #fe4164b6;
+}
